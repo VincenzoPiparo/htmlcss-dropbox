@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+/* header{
+    position: fixed;
+} */
+
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+
+/* CONTAINER */
+.container{
+   width: 100%;
+   margin: auto;
+}
+/* NAV MENU */
+.col{
+    float: left;
+    margin: 10px 25px;
+}
+.col-right{
+    float: right;
+    margin: 10px 25px;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col menu{
+    width: 80%;
+    text-align: center;
+}
+.menu-top{
+    list-style-type: none;
+    margin: 20px 0;
+}
+.menu-top li{
+    display: inline-block;
+    margin: 0 15px;
+    
+}
+.menu-top a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+/* BUTTON */
+.start{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    line-height: normal;
+    display: inline-block;
+    background-color: #0061ff;
+    
+}
+
+/* LOGO */
+.logo{
+    width: 10%;
+}
+.logo img{
+    vertical-align: middle;
+    margin: 20px 15px;
+}
+
