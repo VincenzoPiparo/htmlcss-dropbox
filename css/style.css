@@ -9,8 +9,6 @@ header{
     width: 100%;
     top: 0;
     height: 80px;
-    /* TEST */
-    border: 1px solid black;
 }
 body{
     font-family: 'Open Sans',sans-serif;
@@ -18,10 +16,7 @@ body{
 }
 main{
     margin-top: 80px;
-    /* TEST */
-    border: 1px solid red;
 }
-
 
 /* CONTAINER */
 .container{
@@ -36,7 +31,7 @@ main{
 }
 .col-right{
     float: right;
-    margin: 10px 25px;
+    margin: 0 25px;
 }
 .clearfix::after{
     content: "";
@@ -65,11 +60,16 @@ main{
 }
 
 /* BUTTON */
-.start {
+.btk-blue{
     padding: 10px 15px;
     font-size: 15px;
     display: inline-block;
     background-color: #0061ff;
+}
+.jumbotron .btk-blue{
+    color: white;
+    text-decoration: none;
+    margin-top: 25px;
 }
 
 /* LOGO */
@@ -81,3 +81,40 @@ main{
     margin: 20px 15px;
 }
 
+/* MAIN */
+.cont-jumbo{
+    background-color: #b4d0e7;
+}
+.jumbotron{
+    position: relative;
+    width: 85%;
+    margin: auto;
+}
+.bck{
+    height: 700px;
+}
+
+h1{
+    font-size: 85px;
+    padding: 30px 0;
+}
+.jumbotron p{
+    width: 30%;
+}
+
+.jumbo-img{
+    position: absolute;
+    margin-left: 25%;
+    width: 60%;
+    top: 35%;
+    left: 15%;
+}
+
+.cancel{
+    padding-top: 25px;
+}
+
+.arrow{
+    font-size: 35px;
+    margin-top: 40px;
+}
