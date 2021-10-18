@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 2px solid black; */
 }
 header{
     position: fixed;
     width: 100%;
     top: 0;
     height: 80px;
+    background-color: white;
+    z-index: 50;
 }
 body{
     font-family: 'Open Sans',sans-serif;
@@ -16,6 +17,9 @@ body{
 }
 main{
     margin-top: 80px;
+}
+img{
+    width: 100%;
 }
 
 /* CONTAINER */
@@ -65,13 +69,26 @@ main{
     font-size: 15px;
     display: inline-block;
     background-color: #0061ff;
+    color: white;
 }
 .jumbotron .btk-blue{
     color: white;
     text-decoration: none;
     margin-top: 25px;
 }
-
+.btk {
+    text-decoration: none;
+    display: inline-block;
+    line-height: normal;
+    font-size: 13px;
+}
+.btk-large {
+    padding: 5% 2%;
+}
+.btk-white {
+    color: black;
+    border: 1px solid black;
+}
 /* LOGO */
 .logo{
     width: 10%;
@@ -117,4 +134,182 @@ h1{
 .arrow{
     font-size: 35px;
     margin-top: 40px;
+}
+
+.orizontal-rules{
+    border: 1px solid lightgray ;
+    width: 50px;
+    margin: 30px 52px;
+}
+
+/* RADIO */
+.contain-plans {
+    width: 70%;
+    margin: auto;
+    margin-top: 160px;
+}
+.contain-plans h2 {
+    font-size: 40px;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+.inputradio {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid lightgrey;
+}
+.inputradio:hover {
+    border: 4px solid #0061ff ;
+}
+
+/* TABLE PRICE */
+
+.cont-col {
+    width: 85%;
+    margin: auto;
+    padding: 5% 5%;
+}
+
+div.cont-col h3 {
+    padding-bottom: 5%;
+}
+.price {
+    font-size: 14px;
+    padding-bottom: 1%;
+}
+
+.included-offer {
+    padding-top: 10%;
+    list-style: none;
+}
+.included-offer li {
+    padding-top: 5%;
+}
+
+.try-plan {
+    width: 100%;
+    text-align: center;
+    margin: 15% 0;
+}
+.try-plan:hover {
+    color: white;
+    background-color: #0061ff;
+    border-color: #0061ff;
+}
+.top-col-plan {
+    padding: 2% 0;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+}
+.col-plans {
+    width: 26%;
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    height: 900px;
+}
+.col-standard {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* TEST */
+
+h5{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.txtblack {
+    color: black;
+}
+.txt13 {
+    font-size: 13px;
+}
+.txt-month {
+   padding-left: 50px;
+   font-size: 12px;
+}
+.txtgrey {
+    color: #6c7b88;
+}
+.margin-bottom1 {
+    margin-bottom: 1%;
+}
+.txt-buy{
+    padding-left: 50px;
+    font-size: 15px;
+}
+
+h5{
+    padding-left: 50px;
+}
+
+/* END TEST */
+/* LIST */
+.highlights {
+    line-height: 300%;
+    margin-top: 5%;
+    list-style: none;
+    padding: 0 50px;
+}
+.highlights i {
+    color: #0061ff;
+}
+
+/* ENTERPRISE */
+.contain-enterprise {
+    margin-top: 5%;
+    border: 1px solid lightgray;
+}
+.contain-enterprise div:first-child {
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    padding: 1%;
+    margin-bottom: 3%;
+}
+.enterprise {
+    width: 95%;
+    margin: auto;
+    padding-left: 10px;
+    
+}
+.enterprise a {
+    float: right;
+}
+.enterprise h3 {
+    margin-bottom: 2%;
+}
+.enterprise h5, p {
+    margin-top: 15px;
+    margin-left: 40px;
+    padding-left: 10px;
+}
+.enterprise p{
+    margin: 15px 0;
+}
+.enterprise .btk-large{
+    padding: 1% 2%;
+}
+
+/* Section 2 */
+.contain-guy {
+    margin-top: 10%
+
+}
+.col-img {
+    width: 55%;
+    margin-right: 5%;
+}
+.col-text {
+    width: 40%;
+}
+.col-text h3 {
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+.col-text p {
+    margin-bottom: 8%;
 }
