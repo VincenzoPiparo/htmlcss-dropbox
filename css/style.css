@@ -62,6 +62,16 @@ img{
     color: white;
 }
 
+/* BUTTONS BANNER BOTTOM */
+.buttons{
+    margin: 80px 400px;
+    padding: 10px 15px;
+    font-size: 15px;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
 /* BUTTON */
 .btk-blue{
     padding: 10px 15px;
@@ -474,7 +484,10 @@ h5{
 }
 
 .cta h2{
+    display: inline-block;
     color: #61082b;
+    font-size: 50px;
+    margin-left: 80px;
 }
 .cta{
     width: 40%;
@@ -483,4 +496,56 @@ h5{
 
 .cta a{
     float: right;
+}
+
+/* QUESTIONS & FAQ */
+.cont-faq{
+    width: 70%;
+    margin: auto;
+}
+.faq{
+    margin-top: 70px;
+}
+.faq li{
+    list-style-type: none;
+    height: 70px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    line-height: 70px;
+    font-weight: bold
+}
+.faq li:last-child{
+    margin-bottom: 10%;
+}
+
+.faq i{
+    float: right;
+    line-height: 70px;
+    margin-right: 4%;
+    font-weight: bold
+    
+}
+
+.faq h2{
+    margin: 40px 0;
+}
+
+/* FOOTER */
+.container-footer{
+    width: 100%;
+    margin: auto;
+}
+
+.footer-menu{
+    color: white;
+    margin: 40px 0;
+    background-color: black;
+}
+
+
+.footer-menu li a{
+    text-decoration: none;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
 }
